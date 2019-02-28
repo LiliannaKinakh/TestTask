@@ -29,8 +29,8 @@ class WeatherViewController: UIViewController {
         
         createPickerView()
         createToolbar()
-        infoTextField.text = controller.stations[0]
-        controller.setupInfoInTableView(station:controller.stations[0])
+        infoTextField.text = controller.stations[1]
+        controller.setupInfoInTableView(station:controller.stations[1])
         textView.text = controller.description
         title = controller.currentStation
     }
