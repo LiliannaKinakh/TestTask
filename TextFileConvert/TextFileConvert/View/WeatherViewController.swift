@@ -31,6 +31,8 @@ class WeatherViewController: UIViewController {
         createToolbar()
         infoTextField.text = controller.stations[0]
         controller.setupInfoInTableView(station:controller.stations[0])
+        textView.text = controller.description
+        title = controller.currentStation
     }
     
     
